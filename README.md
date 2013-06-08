@@ -6,9 +6,8 @@ A project based on ideas of Machine Learning _(M.L)_ : We need to train computer
 
 scikit-learn example and our experiements at Siena. 
 ======================================================= 
-``Hi Morris and Martin,
 
-   It's great to see you've already started looking at the scikit-learn tools! That will probably really help things this weekend. 
+  It's great to see you've already started looking at the scikit-learn tools! That will probably really help things this weekend. 
 
   Here at Siena, I've started to look into this stuff as well with a student of mine, Jess Muenkel (cc'ed on this email). I've wanted to look at these python tools for some time, so this is a great excuse for me to dedicate this time!  :)
 
