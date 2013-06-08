@@ -17,9 +17,10 @@ infile2 = open(infilename2,'r')
 #Ytrain = np.array([])
 #Xtest = np.array([])
 
-Xtrain = -999*np.ones(2500000).reshape(500000,5)
-Ytrain = -999*np.ones(2500000)
-Xtest = -999*np.ones(2500000).reshape(500000,5)
+Xtrain = -1999*np.ones(2500000).reshape(500000,5)
+Ytrain = -1999*np.ones(2500000)
+Xtest = -1999*np.ones(2500000).reshape(500000,5)
+
 
 
 nlines = 0
@@ -42,8 +43,8 @@ for line in infile1:
 print "Read in the second training file...."
 
 # Trim off the excess entries.
-Xtrain = Xtrain[Ytrain>-999]
-Ytrain = Ytrain[Ytrain>-999]
+Xtrain = Xtrain[Ytrain>-1999]
+Ytrain = Ytrain[Ytrain>-1999]
 
 #Xtrain = Xtrain.reshape(nlines,5)
 print Xtrain

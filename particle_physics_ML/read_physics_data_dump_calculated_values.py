@@ -25,7 +25,7 @@ while ( not_at_end ):
     ############################################################################
     line = f.readline()
 
-    if event_count%1000==0:
+    if event_count%1==0:
         print "Event count: ",event_count
 
     if line=="":
